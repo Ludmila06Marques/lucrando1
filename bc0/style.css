@@ -78,7 +78,7 @@ background-color: violet;
    justify-content: center;
    align-items: center;
     background-color: transparent;
-    width: 100%;
+    width: 87%;
    
 
 }
@@ -117,3 +117,25 @@ background-color: black;
     font-size: 20px;
     color: #ffffff;
 }
+
+@media(max-width: 425px) {
+    .navbarr h1{
+     font-size: 15px;
+     padding-bottom: 5px;
+    }
+    .title h1{
+        font-size:20px;
+        line-height: 30px;
+    }
+    .under h1{
+        font-size: 13px;
+       
+    }
+    .under .icon ion-icon{
+        font-size: 10px;
+        margin: 0;
+    }
+    .box-pulse {
+        width: 80%;
+    }
+   }
