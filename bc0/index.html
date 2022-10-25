@@ -12,17 +12,25 @@
     <script type="text/javascript">
       bioEp.init({
         html: '<div id="bio_ep_content">' +
-        '<span>ESPERE</span>' +
+        '<span>ESPERE!</span>' +
         '<div id="enter"><h1>Veja o que os influencers estao dizendo sobre a nova profissão</h1></div>' +
-        '<a href="#YOURURLHERE" class="bio_btn">ME LEVE ATE LA</a>' +
+        '<div class="box-pulse">'+
+   ' <a href="#" class="botao-pulse">Me Leve Até Lá</a></div> '+
         '</div>',
-        css: '#bio_ep {width: 400px; height: 300px; color: #333; background-color: black; text-align: center; border:3px solid yellow; border-radius:5px;  }' +
-        '#bio_ep_content {display:flex; justify-content:center; align-items:center; flex-direction: column; padding: 24px 0 0 0; font-family: "Titillium Web";}' +
-        '#bio_ep_content span:nth-child(1) {display: block; color: white; font-size: 46px; font-weight: bold;}' +
-        '#bio_ep_content div {display: block;background-color:yellow;  width:90% ; height:90%;}'+
-        '#enter h1{display: block; font-size: 30px; padding:15px color:black;font-weight: bold; }' +
+        css: '#bio_ep {width: 45%; height: auto ;color: #333; background-color: black; text-align: center; border:5px solid yellow; border-radius:5px;  }' +
+        '#bio_ep_content {display:flex; justify-content:center; align-items:center; flex-direction: column ; font-family: "Titillium Web";}' +
+        '#bio_ep_content span:nth-child(1) {display: block; color: white; font-size: 60px; font-weight: bold; margin-top:30px;}' +
+        '#enter {display: block;background-color:yellow;  width:90% ; height:90%; margin-top:10px;}'+
+        '#enter h1{display: block; font-size: 35px; padding:10px ;color:black;font-weight:bold; }' +
         '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +
-        '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 7px; color: #fff; font-size: 30px; font-weight: 600; background-color: #70bb39; border: 1px solid #47ad0b; border-radius:8px; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
+        '.box-pulse { width:100%; width:250px; margin-top:20px; padding:0 30px;}'+
+        '.box-pulse a {text-decoration:none;display: inline-block;font-size:25px; font-weight: bold;font-family:Verdana, Geneva, sans-serif;-webkit-transition: all 0.4s;-moz-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4s;}'+
+        '.botao-pulse { padding: 20px 30px;color: #fff;background-color:rgb(40 204 62 );border-radius:3px; -webkit-animation: pulse 1s ease infinite;-moz-animation: pulse 1s ease infinite;-ms-animation: pulse 1s ease infinite;-o-animation: pulse 1s ease infinite;animation: pulse 1s ease infinite;box-shadow: 0px 0px 10px 4px rgb(40 204 62 / 52%);margin-bottom:40px;}'+
+        '@-webkit-keyframes pulse {0% {-webkit-transform: scale(1);}25% {-webkit-transform: scale(1.1);}50% {-webkit-transform: scale(1);}100% {-webkit-transform: scale(1);}}'+
+        '@-moz-keyframes pulse {0% {-moz-transform: scale(1);}25% {-moz-transform: scale(1.1);}50% {-moz-transform: scale(1);}100% {-moz-transform: scale(1);}}'+
+        '@-ms-keyframes pulse {0% {-ms-transform: scale(1);}25% {-ms-transform: scale(1.1);}50% {-ms-transform: scale(1);}100% {-ms-transform: scale(1);}}'+
+        '@-o-keyframes pulse {0% { -o-transform: scale(1);25% { -o-transform: scale(1.1);50% { -o-transform: scale(1);100% { -o-transform: scale(1); } }'+
+        '@keyframes pulse { 0% {transform: scale(1);}50% {transform: scale(1.1);}100% {transform: scale(1);}}',
         fonts: ['//fonts.googleapis.com/css?family=Titillium+Web:300,400,600'],
         cookieExp: 0
     });
