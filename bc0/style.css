@@ -66,12 +66,7 @@ height: 100%;
 
 }
 
-.mediaVideo video{
 
-width: 100%;
-height:100%;
-background-color: violet;
-}
 .under{
     text-align: center;
    display: flex;
