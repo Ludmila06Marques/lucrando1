@@ -13,7 +13,7 @@ window.bioEp = {
 	html: "",
 	css: "",
 	fonts: [],
-	delay: 5,
+	delay: 1,
 	showOnDelay: false,
 	cookieExp: 30,
 	showOncePerSession: false,
