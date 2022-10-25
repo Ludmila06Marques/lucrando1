@@ -118,6 +118,7 @@ background-color: black;
     color: #ffffff;
 }
 
+
 @media(max-width: 425px) {
     .navbarr h1{
      font-size: 15px;
@@ -137,5 +138,9 @@ background-color: black;
     }
     .box-pulse {
         width: 80%;
+    }
+    .footer p{
+        font-size: 10px;
+    
     }
    }
